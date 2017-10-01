@@ -15,7 +15,7 @@ namespace Test
 			foreach (var str in result) Console.WriteLine(str);
 		}
 		/// <summary>
-		/// Because there are ; inside a string you need a parser with state machine.
+		/// Because there are ; inside a string you need a parser with state machine
 		/// </summary>
 		/// <param name="s"></param>
 		/// <returns>array of strings</returns>
