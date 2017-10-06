@@ -13,7 +13,6 @@ namespace Test
 			var s = @"25;""text1"";18.0;303.50;""text2a;text2b;text2c"";2017-05-14 23:38:05;""woof"";;10";
 			var result = StateParse(s);
 			foreach (var str in result) Console.WriteLine(str);
-			// Regel 3 master
 		}
 		/// <summary>
 		/// Because there are ; inside a string you need a parser with state machine
