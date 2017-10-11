@@ -13,8 +13,6 @@ namespace Test
 			//
 			// To insert a quote in a literal C# string add an extra quote.
 			//
-			var name1 = "Rudy";
-			var tekst = $"Hello {name1}, welcome to world of C#" + nameof(name1);
 			var s = @"25;""text1"";18.0;303.50;""text2a;text2b;text2c"";2017-05-14 23:38:05;""woof"";;10";
 			var result = StateParse(s);
 			foreach (var str in result) Console.WriteLine(str);
