@@ -7,6 +7,7 @@ namespace Test
 	{
 		static void Main(string[] args)
 		{
+			// Regel 1 on branch 1
 			//
 			// To insert a quote in a literal C# string add an extra quote.
 			//
