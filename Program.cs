@@ -3,7 +3,7 @@ using System.Text;
 
 namespace Test
 {
-	public class Program
+	class Program
 	{
 		static void Main(string[] args)
 		{
@@ -19,10 +19,10 @@ namespace Test
 		/// </summary>
 		/// <param name="s"></param>
 		/// <returns>array of strings</returns>
-		public static string[] StateParse(string s)
+		private static string[] StateParse(string s)
 		{
 			var i = 0;
-			var state = false;
+			var state=false;
 			var sb = new StringBuilder(s);
 			foreach (var c in s)
 			{
